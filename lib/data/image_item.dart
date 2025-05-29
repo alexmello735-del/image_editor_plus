@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
@@ -37,7 +38,6 @@ class ImageItem {
 
       height = decodedImage.height;
       width = decodedImage.width;
-
       return loader.complete(true);
     } else {
       return loader.complete(false);
