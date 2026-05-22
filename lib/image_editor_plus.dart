@@ -1148,7 +1148,7 @@ class _SingleImageEditorState extends State<SingleImageEditor> {
                       },
                     ),
                   // BottomButton(
-                  //   icon: FontAwesomeIcons.eraser,
+                  //   icon: FontAwesomeIcons.eraser.data,
                   //   text: 'Eraser',
                   //   onTap: () {
                   //     _controller.clear();
@@ -1211,7 +1211,7 @@ class _SingleImageEditorState extends State<SingleImageEditor> {
                     ),
                   if (widget.emojiOption != null)
                     BottomButton(
-                      icon: FontAwesomeIcons.faceSmile,
+                      icon: FontAwesomeIcons.faceSmile.data,
                       text: i18n('Emoji'),
                       onTap: () async {
                         EmojiLayerData? layer = await showModalBottomSheet(

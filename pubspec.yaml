@@ -13,8 +13,8 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  font_awesome_flutter: ^10.1.0
-  image_picker: ^1.0.0
+  font_awesome_flutter: ^11.0.0
+  image_picker: ^1.2.2
   screenshot: ^3.0.0
   extended_image: ^8.1.0
   image: ^4.0.15
